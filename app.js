@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const dotenv = require('dotenv')
 dotenv.config();
-console.log("TCL: ", process.env.port)
+console.log("TCL: ", process.env.PORT)
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 

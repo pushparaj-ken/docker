@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: bokonar/docker:latest
+    image: bokonar/docker_git:latest
     ports:
       - "7311:7311"
     environment:
