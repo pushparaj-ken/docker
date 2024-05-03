@@ -4,7 +4,7 @@ services:
   app:
     image: bokonar/docker_git:latest
     ports:
-      - "7311:7311"
+      - "7313:7313"
     environment:
       - NODE_ENV=production
     restart: always
